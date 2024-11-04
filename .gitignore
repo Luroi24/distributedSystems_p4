@@ -1,6 +1,9 @@
 .gradle
 **/build/
-FileServer/app/src/main/resources/gcp-key.json
+
+# Ignore keys file
+**/gcp-key.json
+
 !src/**/build/
 
 # Ignore Gradle GUI config
